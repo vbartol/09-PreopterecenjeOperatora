@@ -14,12 +14,12 @@ namespace Vsite.CSharp
                 Console.WriteLine(rac);
 
                 // Naredba koja poziva konstruktor pretvorbe iz double
-                //rac = new Racionalni(0.25);
-                //Debug.Assert(rac.ToString() == "1 / 4");
+                rac = new Racionalni(0.25);
+                Debug.Assert(rac.ToString() == "1 / 4");
                 Console.WriteLine(rac);
 
                 // Naredba koja poziva konstruktor pretvorbe iz double
-                //rac = new Racionalni(0.125);
+                rac = new Racionalni(0.125);
                 //Debug.Assert(rac.ToString() == "1 / 8");
                 Console.WriteLine(rac);
             }

@@ -55,6 +55,11 @@ namespace Vsite.CSharp
         }
 
         // TODO: definirati operator ++ koji će objekt tipa KlasaDatum uvećati za jedan dan, u metodi Main otkomentirati naredbe koje koriste operator ++ i pokrenuti program
-
+        public static KlasaDatum operator++(KlasaDatum datum)
+        {
+           
+            Datum.UvećajDan(ref datum.dan,ref datum.mjesec, ref datum.godina);
+            return datum;
+        }
     }
 }
